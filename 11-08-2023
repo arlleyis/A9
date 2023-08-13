@@ -1,4 +1,12 @@
 <?php
+
+$nome = DavideOliveira;
+$idade = 28;
+$CorDosOlhos = Preto;
+$gênero = Mascuino;
+$Altura = 1.78;
+$peso = 98-kg;
+
 class   Pessoa {
   //Atributos 
   public $nome;
@@ -9,35 +17,52 @@ class   Pessoa {
   public $peso;
 
 //Métodos
-public function nome() 
+public function setnome() 
 {
-echo "nome <br>";
+$this-> nome = $nome;
 } 
-public function idade() 
+public function getnome() 
 {
-echo "idade <br>";
+return $this->nome;
 } 
-public function CorDosOhos() 
+public function setidade() 
 {
-echo "CorDosOhos <br>";
+$this-> idade = $idade;
 } 
-public function gênero() 
+public function getidade() 
 {
-echo "gênero <br>";
+return $this->idade;
 } 
-public function altura() 
+public function setCorDosOhos() 
 {
-echo "altura <br>";
+$this-> CorDosOlhos = $CorDosOlhos;
 } 
-public function peso() 
+public function getCorDosOhos() 
 {
-echo "peso <br>";
-}
-$Davi = new Pessoa()
-$Davi->nome = "Davi de Oliveira"
-$Davi->idade = "28"
-$Davi->CorDosOlhos = "Preto"
-$Davi->gênero = "Mascuino"
-$Davi->Altura = "1.78"
-$Davi->peso = "98 kg"
+return $this->CorDosOlhos;
+} 
+public function setgênero() 
+{
+$this-> gênero = $ênero;
+} 
+public function getgênero() 
+{
+return $this->gênero;
+} 
+public function setaltura() 
+{
+$this-> altura = $altura;
+} 
+public function getaltura() 
+{
+return $this->altura;
+} 
+public function setpeso() 
+{
+$this-> peso = $peso;
+} 
+public function getpeso() 
+{
+return $this->peso;
+} 
 }
