@@ -1,0 +1,43 @@
+<?php
+class   Pessoa {
+  //Atributos 
+  public $nome;
+  public $idade;
+  public $CorDosOlhos;
+  public $gênero;
+  public $altura;
+  public $peso;
+
+//Métodos
+public function nome() 
+{
+echo "nome <br>";
+} 
+public function idade() 
+{
+echo "idade <br>";
+} 
+public function CorDosOhos() 
+{
+echo "CorDosOhos <br>";
+} 
+public function gênero() 
+{
+echo "gênero <br>";
+} 
+public function altura() 
+{
+echo "altura <br>";
+} 
+public function peso() 
+{
+echo "peso <br>";
+}
+$Davi = new Pessoa()
+$Davi->nome = "Davi de Oliveira"
+$Davi->idade = "28"
+$Davi->CorDosOlhos = "Preto"
+$Davi->gênero = "Mascuino"
+$Davi->Altura = "1.78"
+$Davi->peso = "98 kg"
+}
